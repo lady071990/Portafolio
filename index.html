@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="../portfolio-nick-main/public/assets/img/iconLady.png">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+	<title>Lady Rosero</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Software Developer</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+    <div class="contenido-banner">
+        <div class="contenedor-img">
+            <img src="img/foto_lady.png" alt="">
+        </div>
+        <h1>LADY ROSERO</h1>
+        <h2>Ingeniera de Sistemas - Tecnóloga en software</h2>
+        <div class="redes">
+            <a href="https://linktr.ee/ladysoftwaredeveloper" target="_blank"><i class="fas fa-link"></i></a>
+            <a href="https://x.com/Lady05276222?s=09" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://github.com/lady071990" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/lady-rosero" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            <a href="mailto:leidyyamile07@gmail.com"><i class="fas fa-envelope"></i></a>
+        </div>
+    </div>
+	</section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, soy Lady Rosero.</span> Como Ingeniera de sistemas y tecnóloga en desarrollo de software, cuento con una amplia gama de
+					 habilidades y experiencia profesional. He trabajado en diversos roles dentro del
+					 campo de la tecnología, como auxiliar en sistemas, desarrolladora web, redes y
+					 conectividad, administradora de bases de datos y de plataformas digitales.</p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Teléfono</strong>
+                            323 792 7696 - 3168155993
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            leidyyammile07@gmail.com
+                        </li>
+                        <li>
+                            <strong>Website</strong>
+                            www.example.com
+                        </li>
+                        <li>
+                            <strong>Dirección</strong>
+                             Pasto, Nariño
+                        </li>
+                        <li>
+                            <strong>Cargo</strong>
+                            <span>Ingeniera de Sistemas</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+						<div class="interes">
+                            <i class="fas fa-laptop-code"></i>
+                            <span>CODE</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fas fa-chart-bar"></i>
+                            <span>ANALISIS</span>
+                        </div>
+                        <div class="interes">
+							<i class="fas fa-robot"></i> <!-- Icono para Inteligencia Artificial -->
+							<span>IA</span>
+						</div>
+                        <div class="interes">
+							<i class="fas fa-spa"></i>
+							<span>YOGA</span>
+						</div>
+                        <div class="interes">
+                            <i class="fa-solid fa-book"></i>
+                            <span>LIBROS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fas fa-swimmer"></i>
+                            <span>NATACION</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fas fa-biking"></i>
+                            <span>CICLISMO</span>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <a href="https://drive.google.com/file/d/1uPPA-HhZ6sT-jVZIVEJbR6PiKB-7Ewqb/view?usp=sharing">
+				<button>
+					Descargar CV <i class="fa-solid fa-download"></i>
+					<span class="overlay"></span>
+				</button>
+			</a>
+        </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>PHP</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>PYTHON</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>MYSQL</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+						<h3>Professional Skills</h3>
+						<div class="skill">
+							<span>Comunicación</span>
+							<div class="barra-skill">
+								<div class="progreso" style="width: 80%;">
+									<span>80%</span>
+								</div>
+							</div>
+						</div>
+						<div class="skill">
+							<span>Trabajo en Equipo</span>
+							<div class="barra-skill">
+								<div class="progreso" style="width: 90%;">
+									<span>90%</span>
+								</div>
+							</div>
+						</div>
+						<div class="skill">
+							<span>Creatividad</span>
+							<div class="barra-skill">
+								<div class="progreso" style="width: 95%;">
+									<span>95%</span>
+								</div>
+							</div>
+						</div>
+						<div class="skill">
+							<span>Dedicación</span>
+							<div class="barra-skill">
+								<div class="progreso" style="width: 99%;">
+									<span>99%</span>
+								</div>
+							</div>
+						</div>
+						<div class="skill">
+							<span>Proyect Management</span>
+							<div class="barra-skill">
+								<div class="progreso" style="width: 95%;">
+									<span>95%</span>
+								</div>
+							</div>
+						</div>
+					</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Ingeniería de Sistemas</h4>
+                        <span class="casa">Corporación Unificada Nacional de Educación Superior CUN</span>
+                        <span class="fecha">2022 - 2024</span>
+                        <p style="text-align: justify;">Ingeniera de Sistemas con sólidos conocimientos en desarrollo de software, gestión de proyectos informáticos, gestión de bases de datos y seguridad informática. Experiencia en la implementación de soluciones tecnológicas innovadoras, con un enfoque centrado en la eficiencia y la usabilidad. Habilidad demostrada en el trabajo en equipo y resolución de problemas, respaldada por una pasión por la tecnología y el aprendizaje continuo.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Tecnóloga en Desarrollo de Software</h4>
+                        <span class="casa">Servicio Nacional de Aprendizaje SENA</span>
+                        <span class="fecha">2020 - 2022</span>
+                        <p style="text-align: justify;">Tecnóloga en análisis y desarrollo de sistemas de información con capacidad de desempeñarme en diferentes áreas tecnológicas, con habilidades en el saber hacer  y una gran capacidad de trabajo en equipo, lo cual me permite desarrollar conocimientos en sistematización, analizar, diseñar y desarrollar sistemas de información, administrar bases de datos, atender los requerimientos de los usuarios e identificar soluciones informáticas y aplicarlas según se necesite además de la correcta verificación y operación de Sistemas.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4 style="text-align: justify;">Técnico laboral por competencias en sistemas y computación con enfásis en redes, soporte y mantenimiento de computadores.</h4>
+                        <span class="casa">Fundación de servicios educativos EMSSANAR CETEM</span>
+                        <span class="fecha">2016 - 2018</span>
+                        <p style="text-align: justify;">Técnica en sistemas y computación con énfasis en redes, soporte y mantenimiento de computadores, competencias y habilidades laborales, conocimientos en instalación de nuevos software, mantenimiento preventivo, predictivo y correctivo que garantice el funcionamiento del hardware de los equipos, manejo de herramientas ofimáticas, redes sociales y colaborativas de acuerdo con el proyecto a desarrollar, implementación y configuración de redes de datos  según normas técnicas.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experiencia de trabajo</h3>
+                    <div class="item der">
+                        <h4>Front Developer</h4>
+                        <span class="casa">Nombre de Compañía</span>
+                        <span class="fecha">2005 - 2008</span>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora recusandae aliquam nemo esse natus impedit, nostrum temporibus veritatis eaque soluta aperiam id repudiandae fugiat deserunt! Explicabo, veritatis?</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Front Developer</h4>
+                        <span class="casa">Nombre de Compañía</span>
+                        <span class="fecha">2005 - 2008</span>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora recusandae aliquam nemo esse natus impedit, nostrum temporibus veritatis eaque soluta aperiam id repudiandae fugiat deserunt! Explicabo, veritatis?</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Front Developer</h4>
+                        <span class="casa">Nombre de Compañía</span>
+                        <span class="fecha">2005 - 2008</span>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora recusandae aliquam nemo esse natus impedit, nostrum temporibus veritatis eaque soluta aperiam id repudiandae fugiat deserunt! Explicabo, veritatis?</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="img/1_SoftwareTurnos.png" alt="">
+                    <div class="overlay">
+                        <h3>Software de Turnos Cuidado Integral en Casa</h3>
+                        <p>Login</p>
+                    </div>
+                </div>
+				<div class="proyecto">
+                    <img src="img/4_SoftwareGastosFamiliares_WEB.png" alt="">
+                    <div class="overlay">
+                        <h3>Software de Gastos Familiares WEB</h3>
+                        <p>Login</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/3_SoftwarePoblacional.png" alt="">
+                    <div class="overlay">
+                        <h3>Software de Banco de Hojas de Vida y Carnetización Digital</h3>
+                        <p>Login</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/6_SoftwareVotaciones.png" alt="">
+                    <div class="overlay">
+                        <h3>Software de Votaciones Electorales</h3>
+                        <p>Login</p>
+                    </div>
+                </div>
+				<div class="proyecto">
+                    <img src="img/5_SoftwareParquederoWEB.png" alt="">
+                    <div class="overlay">
+                        <h3>Software de Parqueadero WEB</h3>
+                        <p>Login</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/2_SoftwareEducativo.png" alt="">
+                    <div class="overlay">
+                        <h3>Software de Control Académico Educativo SIDCA</h3>
+                        <p>Login</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!-- Formulario -->
+                <div class="col">
+                    <input type="text" placeholder="Tú Nombre">
+                    <input type="text" placeholder="Número telefónico">
+                    <input type="text" placeholder="Dirección de correo">
+                    <input type="text" placeholder="Tema">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>
+                        Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                <!-- Mapa -->
+                <div class="col">
+                    <img src="img/mapa.png" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Pasto Nariño, Barrio Centenario
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                Llamanos: 3237927696 
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: leidyyamile07@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://github.com/lady071990" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://linktr.ee/ladysoftwaredeveloper" target="_blank"><i class="fas fa-link"></i></a>
+            <a href="https://www.linkedin.com/in/lady-rosero" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://www.instagram.com/lrnegris18/" target="_blank"><i class="fab fa-instagram"></i></a> <!-- Reemplaza "TU_USUARIO_DE_INSTAGRAM" con tu usuario de Instagram -->
+            <a href="https://wa.me/573237927696?text=Desarrolladora%20Web%20Full%20Stack%20%7C%20Java%20%7C%20Spring%20Boot%20%7C%20Bootstrap%20%7C%20JavaScript%20%7C%20jQuery%20%7C%20MySQL%20%7C%20Git%20%7C%20JUnit%20%7C" target="_blank"><i class="fab fa-whatsapp"></i></a> <!-- Reemplaza "TU_NUMERO_DE_TELEFONO" con tu número de teléfono en formato internacional -->
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
